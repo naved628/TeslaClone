@@ -7,7 +7,7 @@
     "plugins": [
       "expo-router"
     ],
-    "name": "TeslaApp",
-    "slug": "TeslaApp"
+    "name": "TeslaClone",
+    "slug": "TeslaClone"
   }
 }

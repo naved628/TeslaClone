@@ -1,18 +1,13 @@
-import { StyleSheet, View } from "react-native";
+import { StyleSheet, View, Text, SafeAreaView } from "react-native";
 import { StatusBar } from "expo-status-bar";
-import CarItem from "./components/CarItem";
+import CarsList from "./components/CarsList";
 
 export default function Page() {
   return (
-    <View style={styles.container}>
-      <CarItem
-        name={"Model X"}
-        tagLine={"Order Online For"}
-        tagLineCTA={"Touchless Delivery"}
-        image={require("../assets/images/Model3.jpeg")}
-      />
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaView style={{ flex: 1 }}>
+        <CarsList />
+        <StatusBar style="auto" />
+     </SafeAreaView>
   );
 }
 

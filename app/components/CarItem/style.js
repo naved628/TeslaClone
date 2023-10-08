@@ -1,9 +1,9 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, Dimensions } from "react-native";
 
 const styles= StyleSheet.create({
     carContainer: {
         width: "100%",
-        height: "100%",
+        height: Dimensions.get('window').height,
       },
       image:{
         width:'100%',
@@ -31,7 +31,7 @@ const styles= StyleSheet.create({
       },
       buttonContainer:{
         position:'absolute',
-        bottom:50,
+        bottom:100,
         width:'100%'
       }
 });
